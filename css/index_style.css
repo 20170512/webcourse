@@ -2,6 +2,12 @@
     margin: 0;
     font-family: "Arial Narrow";
 }
+#viewport{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("../img/花草.jpg");
     background-size: cover;
